@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Some Website</title>
+     <style>
+        body {
+            background-color:gainsboro;
+        }
+    </style>
+  </head>
+  <body>
+  {{>header}}
+    <h1>{{pageTitle}}</h1>
+    <p>Deatils pf agricultre</p>
+    <h1>Types of Agriculture</h1>
+    <ol>
+      <li>Shifting agriculture </li>
+      <li>Subsistence farming</li>
+      <li>Intensive agriculture</li>
+      <li>Extensive agriculture</li>
+      <li>Commercial agriculture</li>
+      <li>Plantation agriculture</li>
+      <li>Dry land farming</li>
+      <li>Wet land farming</li>
+    </ol>
+
+    <p> {{currentYear}}</p>
+{{>footer}}
+	
+  </body>
+</html>
