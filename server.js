@@ -24,14 +24,17 @@ app.get('/',(req,res)=>{
 app.get('/Agriculture',(req,res)=>{
   res.render('Agriculture.hbs',{
       pageTitle:'Agriculture Types',
-  }
-  );
+  });
 });
 app.get('/pgdetails',(req,res)=>{
   res.render('pgdetails.hbs',{
       pageTitle:'Agriculture types details',
-  }
-  )
+  });
+});
+app.get('/updation',(req,res)=>{
+  res.render('updation.hbs',{
+    pageTitle:'Updation file',
+  })
 })
 app.get('/bad', (req, res) => {
   res.send({
